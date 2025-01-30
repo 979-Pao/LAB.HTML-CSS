@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>IronSkyDiv</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav">
+    <nav class="nav-bar">
         <ul>
           <li><a href="#structure">Day Structure</a></li>
           <li><a href="#team">Team</a></li>
@@ -14,53 +16,53 @@
         </ul>
     </nav>
 
-    <header>
+    <header class="background">
         <h1>
          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" alt="IronSkydive Logo">
-         IronSkydive
+         IRONSKYDIVE
         </h1>
         <h2>Let the trip begin</h2>
-        <aside>"The best experience of our lives"</aside>
+        <aside class="quote">"The best experience of our lives"</aside>
         <p>Arial Quiñonez & Gonzalo Manrique, Iron Hack Founders</p>
     </header>
 
-    <section>
-      <article> 
-       <h3>Hello!</h3>
+    <section class="dark-background">
+      <article class="card" > 
+       <h3 class="text">Hello!</h3>
         <p>Welcome to IronSkydive, the best adventure you will ever have</p>
-        <a href="#">Learn More</a>
+        <a class="link-btn" href="#">Learn More</a>
     </article>
-      <article>  
-       <h3>About us</h3>
+      <article class="card" >  
+       <h3 class="text" >About us</h3>
         <p>We like a lot programming websites, but we also love to practice sport.</p>
-        <a href="#">Watch Video</a>
+        <a class="link-btn" href="#">Watch Video</a>
     </article>
-      <article>  
-       <h3>Wanna join?</h3>
+      <article class="card">  
+       <h3 class="text">Wanna join?</h3>
         <p>Join our fitness program to be in good shape while learning</p>
-        <a href="#">Register</a>
+        <a class="link-btn"  href="#">Register</a>
     </article>
     </section>
 
-    <section>
+    <section id="structure">
       <h3>How do we structure the day?</h3>
-       <div>
-        <article>
+       <div class="container-box">
+        <article class="service-box">
          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png" alt="icon1">
          <h4 class="article-title">1. Training</h4>
          <p class="article.content">We teach all the necessary things to jump from the plane without any kind of problem</p>
         </article>
-        <article>
+        <article class="service-box">
          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png" alt="icon2">
          <h4 class="article-title">2. Get ready</h4>
          <p class="article.content">You are already prepared, you just need the suit and a parachute. All sizes available</p>
         </article>
-        <article>
+        <article class="service-box">
          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png" alt="icon3">
          <h4 class="article-title">3. Fly</h4>
          <p class="article.content">You are ready, and the plane is witing for us in the hangar. Let's fly!</p>
         </article>
-        <article>
+        <article class="service-box">
          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png" alt="icon4">
          <h4 class="article-title">4. Jump!</h4>
          <p class="article.content">You Have done the most complicated. Just one step left... jump!</p>
@@ -69,27 +71,29 @@
         
     </section>
 
-    <section>
-      <h3>Team</h3>
-      <p>Our team collectively has 75 years of experience. Odds are, when you jump out of the plane with these professionals, you won't go splat.</p>
-      <div>
-       <article>Team member 1
-        <h4>Harold Rothstein</h4>
+    <section id="team" class="dark-background">
+      <div class="horizont">
+      <h3 class="box.content">Team</h3>
+      <p class="section-text">Our team collectively has 75 years of experience. Odds are, when you jump out of the plane with these professionals, you won't go splat.</p>
+      <div class="box.content">
+       <article class="content">
+        <h4 class="member-name">Harold Rothstein</h4>
         <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg" alt="Team1">
        </article>
-       <article>Team member 2
-        <h4>Susan Phillips</h4>
+       <article class="content">
+        <h4 class="member-name">Susan Phillips</h4>
         <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg" alt="Team2">
        </article>
-       <article>Team member 3
-        <h4>Taylor Roberts</h4>
+       <article class="content">
+        <h4 class="member-name">Taylor Roberts</h4>
         <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg" alt="Team3">
        </article>
        <hr/>
       </div>
+      </div>
     </section>
 
-    <section>
+    <section id="schedule">
       <h3>Schedule</h3>
       <table>
         <thead>
@@ -137,10 +141,10 @@
       <h3>Schedule a Time Slot</h3>
     </section>
 
-    <footer>
+    <footer class="dark-background footer">
     <section>
       <h5>Contact Information</h5>
-      <address>IronSkydive<br>33 Rue la Fayette,<br> 75009 Paris,<br>France<br> +33 (0) 619 193 088</address>
+      <address class="address">IronSkydive<br>33 Rue la Fayette,<br> 75009 Paris,<br>France<br> +33 (0) 619 193 088</address>
       <h5>Follow Us</h5>
       <ul>
         <li><a href="https://x.com/ironhack?ref_src=twsrc%5Etfw&mx=2" target="_blank">Twitter</a></li>

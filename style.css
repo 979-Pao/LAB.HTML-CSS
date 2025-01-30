@@ -1,7 +1,19 @@
-html,
-body {
+*, html, body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  size:10px ;
+  line-height: 3.5em;
+  weight: 300;
+}
+
+.header {
+  background-color: #1c1c1c;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* CSS multiselector examplen */
@@ -11,15 +23,257 @@ h3,
 h4,
 h5,
 h6 {
-font-style: src='https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700';
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h1 {
+  font-size: 9em;
+  text-align: center;
+  Transform: uppercase;
+}
+
+h2 {
+  font-size: 5em;
+  text-align: center;
+  Transform: uppercase;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 4.2rem;
+  text-align: center;
+  Transform: 1em;
+}
+
+h4 {
+  font-size: 1.5em;
+  text-align: 0.4px;
+  Transform: 1em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+.nav-bar {
+background-color: darkblue;
+justify-content: center;
+max-width: 1920px;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  list-style: none;
+  font-weight: bold;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 200px;
+  justify-content: center;
+}
+
+.background {
+  height: 650px; 
+  background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+  position: 0 0;
+  background-repeat: no-repeat;
+  size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.background h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.background h2 {
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.background p {
+  color: black;
+  font-size: 1.5em;
+}
+
+.quote {
+  font-size: 1.5em;
+  font-style: italic;
+}
 
 /* general-information */
 
+.dark-background {
+  background-color: darkblue;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  gap: 15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2em;
+  overflow: hidden;
+  justify-content: center;
+  max-width: 1920px;
+  }
+
+.card {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 2em;
+}
+
+.card h3 {
+  font-size: xx-large;
+  
+}
+
+.card p {
+  font-size: x-large;
+  line-height: 2em;
+}
+
+
+.link-btn {
+background-color: rgb(100, 124, 220);
+color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 2em;
+letter-spacing: 0.5px;
+text-align: center;
+text-decoration: none;
+
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+margin-top: 10px;
+border-radius: 5px;
+}
+
 /* structure */
+
+.service-box {
+  font-size: 1.7em;
+  text-align: center;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease;
+  padding: 3rem 3rem;
+}
+
+.service-box p {
+  line-height: 1.5;
+}
+
+.container-box {
+  display: grid;
+  grid-template-columns: repeat(2, 650px);
+  gap: 8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2em;
+  overflow: hidden;
+  justify-content: center;
+  max-width: 1920px;
+  margin-bottom: 7em;
+}
+
+.service-box img {
+ width: 125px;
+}
+
 
 /* team */
 
+
+.section-text {
+  font-size: 1.9em;
+  text-align: center;
+}
+
+.member-name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.content{
+  padding: 0px 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 2em;  
+  width: 1600px;
+  height: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  grid-template-rows: auto;
+  gap: 10px
+}
+
+.box.content{
+  padding: 0px 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  line-height: 2em;  
+}
+
+.horizont {
+  display: grid;
+  grid-template-columns: auto; /* 1 sola columna */
+  grid-template-rows: repeat(3, 1fr); /* 3 filas */
+}
+
+#team .member-name {
+
+}
+
+#team img {
+  width: 250px;
+  height: 180px;
+}
+
 /* schedule */
 
+.dark-background footer{
+  font-size: 1.9em;
+  text-align: center;
+}
+
+.address {
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+.address ul {
+  color: blue;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer a {
+  color: blue;
+  text-decoration: none;
+
+}
+  
