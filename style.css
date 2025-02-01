@@ -204,10 +204,15 @@ border-radius: 5px;
 
 /* team */
 
+.Title {
+text-align: center;
+line-height: 2em; 
+}
 
 .section-text {
   font-size: 1.9em;
   text-align: center;
+  line-height: 2em; 
 }
 
 .member-name {
@@ -224,18 +229,18 @@ border-radius: 5px;
   line-height: 2em;  
   width: 1600px;
   height: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-  grid-template-rows: auto;
-  gap: 10px
 }
 
-.box.content{
+.horizont .box.content{
   padding: 0px 0;
   margin: 0;
   padding: 0;
   box-sizing: border-box;  
   line-height: 2em;  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  grid-template-rows: auto;
+  gap: 10px
 }
 
 .horizont {
