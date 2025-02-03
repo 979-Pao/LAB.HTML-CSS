@@ -235,7 +235,7 @@ line-height: 1.8em;
   line-height: 2em;  
   align-items:end;
   height: 340px;
-  grid-row:  2 / 3;    /* Ocupa desde la fila 1 hasta la 3 */
+  grid-row:  2 / 3;    
 }
 
 .horizont {
@@ -244,14 +244,6 @@ line-height: 1.8em;
   grid-column: 1 / 4; /* Ocupa desde la columna 2 hasta la 4 */
 }
   
-
-  /*.horizont .box.content {
-  display: flex;
-  flex-wrap: wrap; /* Permite que los elementos se ajusten si la pantalla es más pequeña */ 
-
-/*#team .member-name {
-}*/
-
 #team img {
   width: 250px;
   height: 180px;
@@ -319,16 +311,28 @@ footer .dark-background footer{
   text-align: center;
 }
 
+.footer {
+  height: 600px;
+  align-items: center; 
+}
+
 .address {
   font-style: normal;
-  font-size: 0.8em;
-  
+  font-size: 1em;
+  line-height: 2em; 
 }
 
 .address ul {
   color: blue;
   text-decoration: none;
   list-style: none;
+  line-height: 2em; 
+}
+
+.address h5 {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
 }
 
 .footer a {
@@ -338,6 +342,6 @@ footer .dark-background footer{
   
 iframe {
   position: relative;
-  top: -460px;   /* Desplaza el iFrame 20px hacia abajo */
-  left: 550px;  /* Desplaza el iFrame 30px hacia la derecha */
+  top: -400px;   /* Desplaza el iFrame 20px hacia abajo */
+  left: 400px;  /* Desplaza el iFrame 30px hacia la derecha */
 }
