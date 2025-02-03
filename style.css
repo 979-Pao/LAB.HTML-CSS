@@ -6,6 +6,7 @@
   size:10px ;
   line-height: 3.5em;
   weight: 300;
+  max-width: 1920px;
 }
 
 .header {
@@ -311,7 +312,9 @@ form button {
   max-width: 1920px;  
 }
 
-.dark-background footer{
+/* footer */
+
+footer .dark-background footer{
   font-size: 1.9em;
   text-align: center;
 }
@@ -319,6 +322,7 @@ form button {
 .address {
   font-style: normal;
   font-size: 0.8em;
+  
 }
 
 .address ul {
@@ -330,6 +334,10 @@ form button {
 .footer a {
   color: blue;
   text-decoration: none;
-
 }
   
+iframe {
+  position: relative;
+  top: -460px;   /* Desplaza el iFrame 20px hacia abajo */
+  left: 550px;  /* Desplaza el iFrame 30px hacia la derecha */
+}
